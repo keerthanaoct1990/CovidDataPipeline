@@ -1,8 +1,8 @@
 # CovidDataPipeline
 Create a data pipeline with Delta Live Tables.
-The purpose of the pipeline is to fetch raw covid data ,process them and make them ready for further analysis
-Steps
-_______
+The purpose of the pipeline is to fetch raw covid data ,process them and make them ready for further analysis.
+
+**Steps**
 1. Download the covid data from 'https://github.com/MicrosoftLearning/mslearn-databricks/raw/main/data/covid_data.csv'
 2. Create 3 delta live tables
    1. raw_covid_data from the csv file
@@ -12,14 +12,15 @@ _______
 4. Create a visualization
 
 
-Aggregated covid data
+# Aggregated covid data
 
 ![image](https://github.com/user-attachments/assets/3fc8a3fc-11ba-4b8b-b26a-8f9d742510d5)
 
 
-Visualisation of aggregated covid data.
-Visualization type: Line
-X Column: Report_Date
-Y Column: Add a new column and select Total_Confirmed. Apply the Sum aggregation.
+# Visualisation of aggregated covid data.
+
+- Visualization type: Line
+- X Column: Report_Date
+- Y Column: Add a new column and select Total_Confirmed. Apply the Sum aggregation.
 
 ![image](https://github.com/user-attachments/assets/5ae5b4a2-bdab-4691-ad1a-61223930ce1c)
